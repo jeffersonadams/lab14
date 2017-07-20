@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>kittens and puppies</title>
+  </head>
+  <body>
+    <div class="navBar">
+      <a href="#!/cat">cat</a>
+      <a href="#!/dog">dog</a>
+      <a href="#!/murphy">MURPHY!</a>
+
+    </div>
+    <div class="view">
+      <ng-view></ng-view>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controller.js"></script>
+  </body>
+</html>
